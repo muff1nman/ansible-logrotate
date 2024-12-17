@@ -13,5 +13,3 @@ additional_logrotate_conf: |
       create 0600 root utmp
       rotate 1
   }
-  
-  # system-specific logs may be also be configured here.

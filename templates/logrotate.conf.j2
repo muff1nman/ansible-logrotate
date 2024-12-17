@@ -17,6 +17,8 @@ dateext
 # packages drop log rotation information into this directory
 include /etc/logrotate.d
 
+# system-specific logs may be also be configured here.
+
 {% if additional_logrotate_conf is defined %}
 {{ additional_logrotate_conf }}
 {% endif %}
